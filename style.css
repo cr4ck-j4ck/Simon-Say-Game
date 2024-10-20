@@ -1,0 +1,42 @@
+.container {
+  text-align: center;
+}
+
+.box1 {
+  background-color: #d95980;
+}
+
+.box2 {
+  background-color: #63aac0;
+}
+
+.box3 {
+  background-color: #f99b45;
+}
+
+.box4 {
+  background-color: #819ff9;
+}
+
+.game-board {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  height: 300px;
+  width: 300px;
+  border: 1rem solid;
+  border-radius: 20%;
+  margin: 30px;
+  font-size: 3rem;
+}
+.red {
+  background-color: red;
+}
+.flash-Green {
+  background-color: green;
+}
+.blink {
+  background-color: white;
+}
