@@ -6,7 +6,7 @@ let level = 0;
 let game = false;
 
 let randNum = () => Math.floor(Math.random() * 4);
-
+// adding Event listener to Divs 
 for (btn of buttons) {
   btn.addEventListener("click", function () {
     userSeq.push(this.getAttribute("id"));
