@@ -17,7 +17,7 @@ for (btn of buttons) {
     }, 150);
   });
 }
-
+// Checking User Click
 function checkUserClick() {
   if (userSeq[userSeq.length - 1] === gameSeq[userSeq.length - 1]) {
     console.log("correct");
